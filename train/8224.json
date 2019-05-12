@@ -1,0 +1,1288 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.sparkslab.dcardreader:id/toolbar",
+      "children": [
+        {
+          "text": "全部",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            135,
+            392,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "share",
+          "resource-id": "com.sparkslab.dcardreader:id/action_share",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1104,
+            98,
+            1272,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "notifications",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1272,
+            84,
+            1440,
+            280
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.support.design.widget.TabLayout$SlidingTabStrip",
+      "bounds": [
+        56,
+        280,
+        1440,
+        448
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "分類",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            133,
+            331,
+            231,
+            397
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "熱門文章",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            350,
+            331,
+            546,
+            397
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "最新文章",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            630,
+            331,
+            826,
+            397
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "Multi-Tab"
+    },
+    {
+      "resource-id": "com.sparkslab.dcardreader:id/view_main",
+      "children": [
+        {
+          "text": "3.9萬",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_like_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            511,
+            252,
+            707
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sparkslab.dcardreader:id/imageView_head",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            182,
+            636,
+            280,
+            734
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "感情",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_forum",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1202,
+            504,
+            1384,
+            580
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "547",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_comment_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1217,
+            670,
+            1384,
+            741
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "匿名",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_author",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            336,
+            670,
+            1189,
+            741
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "致三年的離開，不過我們結婚吧",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            337,
+            504,
+            1174,
+            585
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "高一那年我交了女朋友，他是我的初戀 一談就談了三年，我女朋友跟我同校 不同班，我爸爸是非常討厭菸味的人，全親戚裡面也沒有人抽菸，當然也包括我，在一起之後我才發現我女朋友身上時不時會帶著菸味，但是剛在一起的時候我也不好問這他是不是會抽菸",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_excerpt",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            336,
+            592,
+            1174,
+            663
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        448,
+        1440,
+        797
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.sparkslab.dcardreader:id/view_main",
+      "children": [
+        {
+          "text": "1.9萬",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_like_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            864,
+            252,
+            1060
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sparkslab.dcardreader:id/imageView_head",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            182,
+            989,
+            280,
+            1087
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "有趣",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_forum",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1202,
+            857,
+            1384,
+            933
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "83",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_comment_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1247,
+            1023,
+            1384,
+            1094
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "嘉義大學",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_author",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            336,
+            1023,
+            1219,
+            1094
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sparkslab.dcardreader:id/view_dot",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            336,
+            883,
+            309,
+            911
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "(更)外公的霸氣",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            337,
+            857,
+            1174,
+            938
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "剛剛聽我媽分享了一個我外公年輕時候的小故事 覺得很好笑，我外公有4個小孩 兩男兩女，我兩個舅舅年輕的時候是讀軍校 然後我，外公就帶著我媽去中壢火車站準備接我兩個，舅舅，殊不知ㄧ大~~~群阿兵哥一起下車 一瞬間幾百個背影根本差不多（其實正面也...XD",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_excerpt",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            336,
+            945,
+            1174,
+            1016
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        801,
+        1440,
+        1150
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.sparkslab.dcardreader:id/view_main",
+      "children": [
+        {
+          "text": "1.7萬",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_like_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            1217,
+            252,
+            1413
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sparkslab.dcardreader:id/imageView_head",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            182,
+            1342,
+            280,
+            1440
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "有趣",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_forum",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1202,
+            1210,
+            1384,
+            1286
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "186",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_comment_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1217,
+            1376,
+            1384,
+            1447
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "輔仁大學",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_author",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            336,
+            1376,
+            1189,
+            1447
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sparkslab.dcardreader:id/view_dot",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            336,
+            1236,
+            309,
+            1264
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "再更#不用地址報名字就能回家",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            337,
+            1210,
+            1174,
+            1291
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "非常感謝大家阿公都這麼捧場很有共鳴又出名讓小孩們撿便宜，不管我阿公到底有不有名對我來說不重要，他是我最愛的阿公在我心中是唯一，阿公姓洪，其實我一直以為彰化洪姓最多的說~~~，抱歉無法公布阿公名字因為我剛google可以搜到我家地址XDDD",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_excerpt",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            336,
+            1298,
+            1174,
+            1369
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1154,
+        1440,
+        1503
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.sparkslab.dcardreader:id/view_main",
+      "children": [
+        {
+          "text": "1.4萬",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_like_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            1570,
+            252,
+            1766
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sparkslab.dcardreader:id/imageView_head",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            182,
+            1695,
+            280,
+            1793
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "有趣",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_forum",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1202,
+            1563,
+            1384,
+            1639
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "337",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_comment_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1217,
+            1729,
+            1384,
+            1800
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "烏普薩拉大學",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_author",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            336,
+            1729,
+            1189,
+            1800
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sparkslab.dcardreader:id/view_dot",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            336,
+            1589,
+            309,
+            1617
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "當你說組員很帥但他卻聽得懂",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            337,
+            1563,
+            1174,
+            1644
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "哈囉大家好，（先介紹一下我的學校在瑞典，是瑞典最古老的大學喔），這學期因為找不到課修（有些課要求瑞典語但我的程度還沒到QQ），就修了一堂 Industrial Project Management，（我真的不知道怎麼翻譯）",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_excerpt",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            336,
+            1651,
+            1174,
+            1722
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1507,
+        1440,
+        1856
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.sparkslab.dcardreader:id/view_main",
+      "children": [
+        {
+          "text": "1.1萬",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_like_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            1923,
+            252,
+            2119
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sparkslab.dcardreader:id/imageView_head",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            182,
+            2048,
+            280,
+            2146
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "有趣",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_forum",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1202,
+            1916,
+            1384,
+            1992
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "163",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_comment_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1217,
+            2082,
+            1384,
+            2153
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "新生醫護管理專科學校",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_author",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            336,
+            2082,
+            1189,
+            2153
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sparkslab.dcardreader:id/view_dot",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            336,
+            1942,
+            309,
+            1970
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "我是魔法師",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            337,
+            1916,
+            1174,
+            1997
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "其實我是一位魔法師  我施了魔法在這篇文裡，就是，.，.，.，.，.，.，.，.，.，.，.，.，.，.，.，.，.，.，按愛心的人都會脫魯Ｏ（≧▽≦）Ｏ，----------------------------------------------------------------------",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_excerpt",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            336,
+            2004,
+            1174,
+            2075
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1860,
+        1440,
+        2209
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.sparkslab.dcardreader:id/view_main",
+      "children": [
+        {
+          "text": "9436",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_like_count",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            2276,
+            252,
+            2392
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "心情",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_forum",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1202,
+            2269,
+            1384,
+            2345
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sparkslab.dcardreader:id/view_dot",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            336,
+            2295,
+            309,
+            2323
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "（更）#圖……打開皮夾看到的是我們的合照……",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            337,
+            2269,
+            1174,
+            2350
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "謝謝大家的祝福，你們的每一句祝福我都有慢慢看，真的看了都很感動，你們的力量真的有讓我更堅強，但因為車禍還有喪事都還在辦，實在沒辦法一一回覆這裡先跟大家說抱歉了，另外有人提到為什麼離職，因為我是有唸大學的",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_excerpt",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            336,
+            2357,
+            1174,
+            2392
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2213,
+        1440,
+        2392
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.sparkslab.dcardreader:id/fastScroller_handle",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1290,
+        280,
+        1440,
+        487
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "548",
+      "resource-id": "com.sparkslab.dcardreader:id/bottom_action_comment",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        561,
+        2196,
+        854,
+        2392
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.sparkslab.dcardreader:id/bottom_action_repost",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        854,
+        2196,
+        1043,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "more",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.sparkslab.dcardreader:id/bottom_action_overflow",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1043,
+        2196,
+        1232,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        280,
+        1440,
+        2195
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "致三年的離開，不過我們結婚吧",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            336,
+            1356,
+            458
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "感情",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_category",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1202,
+            523,
+            1440,
+            645
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "高一那年我交了女朋友\n他是我的初戀 一談就談了三年\n我女朋友跟我同校 不同班\n\n我爸爸是非常討厭菸味的人\n全親戚裡面也沒有人抽菸\n當然也包括我\n\n在一起之後我才發現我女朋友身上時不時會帶著菸味\n但是剛在一起的時候我也不好問這他是不是會抽菸\n直到有一天我在他包包裡面看到有一包涼菸我才問了他\n他坦承他會抽菸 是國中畢業之後學的\n雖然他菸癮不大 有時候一天兩三根 有時候兩三天一根\n\n當然我是很反對他抽菸的\n畢竟不管平常跟他相處的我會不會吸到二手菸\n抽菸到最後一定是他自己的健康會出問題\n我們最後也常因為這個問題吵架\n後來我們說好一包菸至少要抽三週\n\n有時候他一整天沒抽\n有時候吃過午飯跟晚飯後我會陪他站在餐廳外面抽菸\n\n結果高三的時候 我跟他在我家裡附近的餐廳吃飯\n吃完飯後我跟平常一樣陪他站在餐廳外面 看著他抽菸\n結果我爸剛好開車路過 就看到了我跟我女朋友\n馬上把車靠邊停了 下車走過來\n\n一看到我女朋友抽菸之後我爸就是一陣破口大罵\n因為我女朋友在我爸爸心中是個很乖的小孩（不是說抽菸就是壞小孩，是我爸個人真的很排斥菸）\n我女朋友成績在他班上算是名列前矛\n所以考試之前他都會來家裡幫我複習作業\n當我免費的英文家教\n結果他看到我女朋友在抽菸 當下就叫我跟我女朋友分手\n還指著我女朋友說 原來你就不是個好東西 之類的話\n\n那晚 我跟我女朋友冷戰了\n是因為我女朋友覺得我沒有事先跟我爸說他會抽菸\n反正因為這件事情我們吵來吵去\n要他完全戒菸也是不可能的\n最後高三畢業的時候 我們分手了\n\n我女朋友出國讀書了 我留在台灣\n分手之後我們沒有聯絡\n只是偶爾會在他的facebook上面看到他的近況\n不知道他心裡對我還有沒有一點掛念\n但反而我每次經過跟他走過的路\n去吃跟他常吃的餐廳\n我都覺得自己忘不了他\n\n有一次我跟我朋友去橋下打球\n我有些朋友也會抽菸\n但那時候我聞到的卻不是菸味\n而是思念就懸在我的身邊\n那天打完球 大家說散之後我去了便利商店\n離櫃檯遠遠的 我一直在找女朋友常抽的那包菸\n找到之後我就跟店員說上面的編號 還買了一個打火機\n這是我人生中買的第一包菸\n\n出了超商 我學女朋友一樣 敲了敲菸 說是可以把菸草敲勻\n我點了菸\n我吸了一口\n我咳了好幾下\n\n這也太難抽了吧...\n\n但我最後還是把那根菸抽完了\n吸到肺裡面 再慢慢吐出來\n那一條煙從我嘴巴吐出來 是熟悉的\n沾在身上的味道你的味道 是熟悉的\n\n最後是我染上菸癮了 雖然據說涼菸對男生不好\n我朋友也常笑我只抽涼菸\n但是與其說是我染上抽涼菸的癮\n不如說我是戒不掉想你\n\n今年我大四了 我爸也知道我會抽菸\n我跟我爸也因為我抽菸革命過很多次\n說是因為我前女朋友帶壞我的\n但最後他就說不要讓他看到我抽就行\n\n大學的前三年 我就是個魯蛇\n有過幾段曖昧經驗 但是卻沒有一個名正言份的女朋友\n然而就在大四的時候 我前女友突然用facebook密我\n：我畢業了 現在在台灣 吃飯不？\n\n當下我真的又驚又喜但又覺得有點不明白為什麼突然找我？\n之後我們還是見面了  去我們最常去的餐廳吃飯\n他說因為他在國外暑假的時候都還有修網課拿學分\n所以讀了三年就順利畢業了 原本想留在國外工作兩年再讀研究所 不過最後決定先回台灣邊上班邊準備研究所\n\n吃完飯 離開了餐廳 我很習慣的拿菸出來抽\n：你抽菸了？\n我前女友完全瞪大眼睛看著我 我也遞了一根菸給他\n：我已經戒菸三年了......\n\n原來\n三年前的我\n是為了一個人而開始抽菸\n三年前的他\n是為了一個人而開始戒菸\n\n\n那天晚上他跟我說\n：換我陪你戒菸吧，現在一包要抽三週\n\n這是我們的故事\n到今天我們已經復合7個月了\n我跟他之間再也沒有菸味\n\n如果你醒了，看到這篇文章\n我想對你說\n等我畢業後，結婚吧\n\n-我的回覆在 B6, B15, B16, B127, and B466\n- B214 我愛你💓\n\n*\n每個人的留言我都看了，非常謝謝你們\n希望等到結婚的那天我還記得來更新這篇文章\n這也算是青春和不可被抹滅的回憶吧\n對於其他有類似經驗的人 因為我們也都青春過\n我的故事是真的 其他人���故事也可以是真的\n😇",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            711,
+            1384,
+            2195
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sparkslab.dcardreader:id/imageView_head",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            56,
+            521,
+            182,
+            647
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "匿名",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_author",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            238,
+            514,
+            344,
+            585
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "1月31日 3:37",
+          "resource-id": "com.sparkslab.dcardreader:id/textView_create_time",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            238,
+            592,
+            508,
+            654
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "38964",
+      "resource-id": "com.sparkslab.dcardreader:id/bottom_action_like_back",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        208,
+        2196,
+        561,
+        2392
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

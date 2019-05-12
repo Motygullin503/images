@@ -1,0 +1,706 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dealmoon.android:id/imagebtn_back",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        0,
+        87,
+        161,
+        248
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "全部评论",
+      "resource-id": "com.dealmoon.android:id/title_hint_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        608,
+        130,
+        832,
+        206
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ListView",
+        "android.widget.AbsListView",
+        "android.widget.AdapterView",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "se.emilsjolander.stickylistheaders.WrapperViewList",
+      "bounds": [
+        0,
+        252,
+        1440,
+        2205
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "热门评论",
+          "resource-id": "com.dealmoon.android:id/dealmoon_command_text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            35,
+            289,
+            231,
+            355
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": " 1",
+          "resource-id": "com.dealmoon.android:id/news_command_num",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            266,
+            289,
+            1440,
+            355
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "最新评论",
+          "resource-id": "com.dealmoon.android:id/dealmoon_command_text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            35,
+            742,
+            231,
+            808
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": " 70",
+          "resource-id": "com.dealmoon.android:id/news_command_num",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            266,
+            742,
+            1440,
+            808
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dealmoon.android:id/item_icon",
+          "clickable": false,
+          "class": "com.mb.library.ui.widget.CircleImageView",
+          "bounds": [
+            19,
+            418,
+            159,
+            558
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "11",
+          "resource-id": "com.dealmoon.android:id/item_good_btn",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1284,
+            411,
+            1393,
+            574
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dealmoon.android:id/item_icon",
+          "clickable": false,
+          "class": "com.mb.library.ui.widget.CircleImageView",
+          "bounds": [
+            19,
+            871,
+            159,
+            1011
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "0",
+          "resource-id": "com.dealmoon.android:id/item_good_btn",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1284,
+            864,
+            1393,
+            1027
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dealmoon.android:id/item_icon",
+          "clickable": false,
+          "class": "com.mb.library.ui.widget.CircleImageView",
+          "bounds": [
+            19,
+            1115,
+            159,
+            1255
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "2",
+          "resource-id": "com.dealmoon.android:id/item_good_btn",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1284,
+            1108,
+            1393,
+            1271
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dealmoon.android:id/item_icon",
+          "clickable": false,
+          "class": "com.mb.library.ui.widget.CircleImageView",
+          "bounds": [
+            19,
+            1359,
+            159,
+            1499
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "0",
+          "resource-id": "com.dealmoon.android:id/item_good_btn",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1284,
+            1352,
+            1393,
+            1515
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dealmoon.android:id/item_icon",
+          "clickable": false,
+          "class": "com.mb.library.ui.widget.CircleImageView",
+          "bounds": [
+            19,
+            1603,
+            159,
+            1743
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "0",
+          "resource-id": "com.dealmoon.android:id/item_good_btn",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1284,
+            1596,
+            1393,
+            1759
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dealmoon.android:id/item_icon",
+          "clickable": false,
+          "class": "com.mb.library.ui.widget.CircleImageView",
+          "bounds": [
+            19,
+            1847,
+            159,
+            1987
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "1",
+          "resource-id": "com.dealmoon.android:id/item_good_btn",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1284,
+            1840,
+            1393,
+            2003
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "没头脑爱上不高兴",
+          "resource-id": "com.dealmoon.android:id/item_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            411,
+            1281,
+            468
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "12小时前",
+          "resource-id": "com.dealmoon.android:id/item_time",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            476,
+            332,
+            523
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "规律可能是鞋包类和美妆类轮番打折，但就是不能一起…",
+          "resource-id": "com.dealmoon.android:id/item_content",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            546,
+            1281,
+            683
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "Polly啵莉",
+          "resource-id": "com.dealmoon.android:id/item_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            864,
+            1281,
+            921
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "24分钟前",
+          "resource-id": "com.dealmoon.android:id/item_time",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            929,
+            332,
+            976
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "扫利😂，一边看电视一边打字，真是，恍惚",
+          "resource-id": "com.dealmoon.android:id/item_content",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            999,
+            1281,
+            1065
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "腰别菜刀",
+          "resource-id": "com.dealmoon.android:id/item_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            1108,
+            1281,
+            1165
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "37分钟前",
+          "resource-id": "com.dealmoon.android:id/item_time",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            1173,
+            332,
+            1220
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "坚决支持北美的省钱精神，不买",
+          "resource-id": "com.dealmoon.android:id/item_content",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            1243,
+            1281,
+            1309
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "pepper_小米辣",
+          "resource-id": "com.dealmoon.android:id/item_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            1352,
+            1281,
+            1409
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "46分钟前",
+          "resource-id": "com.dealmoon.android:id/item_time",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            1417,
+            332,
+            1464
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "为什么没有la prairie 满400的礼包呢？",
+          "resource-id": "com.dealmoon.android:id/item_content",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            1487,
+            1281,
+            1553
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "利君",
+          "resource-id": "com.dealmoon.android:id/item_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            1596,
+            1281,
+            1653
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "1小时前",
+          "resource-id": "com.dealmoon.android:id/item_time",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            1661,
+            312,
+            1708
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "为嘛不通过让打电话给客服？之前买的好好的",
+          "resource-id": "com.dealmoon.android:id/item_content",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            1731,
+            1281,
+            1797
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "美代pumpkinyifu",
+          "resource-id": "com.dealmoon.android:id/item_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            1840,
+            1281,
+            1897
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "1小时前",
+          "resource-id": "com.dealmoon.android:id/item_time",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            1905,
+            312,
+            1952
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "刚刚已经确认了我的订单啦，看到折扣码了，aroma2，满75刀就可以有啦 //@tongtongren: 没有啊，是买什么送呢，还需要用什么码吗//@美代pumpkinyifu:小编，满75有沐浴露两支送哦",
+          "resource-id": "com.dealmoon.android:id/item_content",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            187,
+            1975,
+            1281,
+            2205
+          ],
+          "componentLabel": "Text Button"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "添加一条评论...",
+      "resource-id": "com.dealmoon.android:id/text_show_input",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        35,
+        2230,
+        1405,
+        2371
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}
